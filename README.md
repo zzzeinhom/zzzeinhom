@@ -89,9 +89,9 @@ Focused on building **clean, scalable, and well-architected backend systems**.
 
 ## 📈 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MohammadZeinhom&show_icons=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=zzzeinhom&show_icons=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MohammadZeinhom&layout=compact)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=zzzeinhom&layout=compact)
 
 ---
 
