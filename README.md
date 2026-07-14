@@ -1,109 +1,57 @@
-# Hello, Mohammad Zeinhom is here
+# 🚀 Mohammad Zeinhom | Backend Software Engineer
 
-Backend Developer specialized in **ASP.NET Core** and **Spring Boot**  
-Focused on building **clean, scalable, and well-architected backend systems**.
+Backend Developer specializing in building **scalable, distributed, and AI-integrated backend systems** using **Spring Boot (Java)** and **ASP.NET Core (C#)**. Focused on clean architecture, robust concurrency, and high-performance design.
 
 ---
 
 ## 🧠 About Me
+I am a passionate Backend Engineer dedicated to crafting clean, maintainable, and well-architected systems. I thrive on solving complex backend challenges—whether it's decoupling intensive AI inference from web requests, optimizing database queries with vector search, or modeling intricate multi-threaded simulations.
 
-- Backend Developer with strong foundation in **ASP.NET Core (.NET)** and **Java Spring Boot**
-- Solid understanding of **backend internals and request pipeline**
-- Experienced in building **RESTful APIs and MVC applications**
-- Strong knowledge of **OOP, SOLID principles, and Clean Architecture**
-- Comfortable with **testing, security, and real-world backend patterns**
-
----
-
-## 🛠️ Core Skills
-
-### Backend Technologies
-- ASP.NET Core (MVC, Web API, Minimal API)
-- Spring Boot
-- RESTful API Design
-- Middleware Pipeline
-- Filters & Interceptors
-- Dependency Injection
-- Configuration & Environments
-
-### Architecture & Design
-- Clean Architecture
-- Repository Pattern
-- SOLID Principles
-- DTO-based communication
-- Separation of Concerns
-
-### Database & Persistence
-- Entity Framework Core
-- MySQL
-- Database relationships
-- Migrations
-- Async database operations
-
-### Testing
-- xUnit
-- Moq
-- Integration Testing
-- Fluent Assertions
-
-### Security & Authentication
-- ASP.NET Identity
-- JWT Authentication
-- Role-based Authorization
-- Policy-based Authorization
-
-### Logging & Monitoring
-- ILogger
-- Serilog
-- Structured logging
-
-### Tools
-- Git & GitHub
-- Postman
-- Swagger / OpenAPI
+*   **Architectural Philosophy:** Adherent of **Clean Architecture**, **SOLID principles**, and separation of concerns.
+*   **Decoupled & Asynchronous Design:** Experienced in event-driven systems using message brokers (RabbitMQ) to scale background workflows.
+*   **Vector Search & AI RAG:** Practical expertise integrating LLMs (Spring AI) and vector extensions (`pgvector`) to build contextual recommendations and intelligent dining assistants.
 
 ---
 
-## 📌 Projects
+## 🛠️ Tech Stack & Ecosystem
 
-### 🍽️ Recipe Sharing Platform — Spring Boot
-- RESTful backend application
-- Layered architecture
-- DTOs & mappers
-- Recipe management, favorites, ratings, statistics
-- Designed with scalability in mind
-
-### 🚗 Parking Simulation System — Java
-- Multithreaded system simulation
-- Semaphore-based synchronization
-- Real-world concurrency modeling
-
-### 📊 ASP.NET Core Practice Systems
-- MVC & Web API applications
-- Clean Architecture implementation
-- Authentication & JWT APIs
-- EF Core CRUD systems
-- Unit & integration testing
+| Category | Technologies & Tools |
+| :--- | :--- |
+| **Languages** | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white) |
+| **Backend Frameworks** | ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![.NET / ASP.NET Core](https://img.shields.io/badge/.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white) |
+| **Data & Caching** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
+| **Messaging & Broker** | ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white) |
+| **DevOps & Tools** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white) ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black) |
+| **Testing & Mocking** | `JUnit` • `Mockito` • `xUnit` • `Moq` • `Fluent Assertions` |
 
 ---
 
-### 🛠️ Tech Stack
+## ⚡ Featured Projects & Architectures
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![C#](https://img.shields.io/badge/CSharp-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+### 🍽️ InDine — Smart Table Reservation & AI Recommendation System
+An enterprise-grade, asynchronous backend powering dining reservations and a RAG-based AI dining assistant.
+*   **Asynchronous Ingredient Pipeline:** Implemented an event-driven workflow using **RabbitMQ** to offload heavy LLM ingredient extraction and allergen tagging to a decoupled Python worker, freeing up web-transaction threads.
+*   **Semantic Recommendation Engine:** Utilized **Spring AI** and **PostgreSQL (`pgvector`)** to offer sub-millisecond semantic food recommendations based on dining histories, tastes, and safety profiles.
+*   **Distributed Caching & Rates:** Structured multi-level caching using **Redis** (distributed session management) and **Caffeine** (high-speed local cache) to reduce database load.
+*   **Secure Payment Integration:** Integrated **Paymob** checkout gateways, securely coordinating payment intents, webhook notifications, and cryptographic signature validations.
+*   *Stack: Spring Boot 3.5, Java 21, pgvector, Redis, RabbitMQ, Python 3.10, Paymob, Cloudinary*
+
+### 🚗 Multi-Threaded Parking Simulation
+A concurrent simulation modeling real-world synchronization and resource allocation constraints.
+*   **Thread Safety & Concurrency:** Designed using semaphore-based synchronization patterns to safely coordinate incoming/outgoing traffic.
+*   **Liveness & Deadlock Prevention:** Fine-tuned critical sections to guarantee zero deadlocks under high simulated load.
+*   *Stack: Java Core, Multithreading, Semaphores*
+
+### 🔒 Enterprise ASP.NET Core Practice Ecosystems
+A suite of REST APIs and MVC applications highlighting modern .NET architecture.
+*   **Clean Architecture:** Implemented strong separation of concerns separating Domain, Application, Infrastructure, and API layers.
+*   **Security & Identity:** Utilized ASP.NET Identity with custom policy-based JWT authorization rules.
+*   **Robust Testing:** Maintained high coverage using **xUnit** and **Moq** for unit and integration testing.
+*   *Stack: ASP.NET Core, EF Core, C#, JWT, SQL Server, xUnit*
 
 ---
 
-## 🎯 Currently Focusing On
-- Advanced backend system design
-- Improving API performance & scalability
-- Real-world backend project architecture
-- Deepening Spring Boot & .NET expertise
-
----
-
-⭐ Passionate about backend engineering and writing clean, maintainable systems.
+## 🎯 Current Technical Focus
+*   **Advanced System Design:** Mastering high-throughput microservices, API Gateway patterns, and event-sourcing.
+*   **AI-Native Backends:** Deepening experience with vector index tuning, embedding optimizations, and agentic workflows.
+*   **System Performance:** Tuning JVM & .NET garbage collection, asynchronous IO, and query performance.
