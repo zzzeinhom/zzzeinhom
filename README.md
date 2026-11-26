@@ -45,7 +45,7 @@
 
 ## 🚀 Featured Projects
 
-### 🔌 [Instinct OpenAI Proxy](https://github.com/zzzeinhom/instinct-openai-proxy) · Open Source
+### 🔌 [Instinct OpenAI Proxy](https://github.com/zzzeinhom/instinct-openai-proxy)
 `Python` `FastAPI` `asyncio` `Telethon` `WAHA` `Docker`
 
 A local, OpenAI-compatible `/v1/chat/completions` endpoint for the Instinct assistant on Telegram and WhatsApp.
@@ -54,14 +54,14 @@ A local, OpenAI-compatible `/v1/chat/completions` endpoint for the Instinct assi
 - `asyncio.Lock` queue so concurrent requests don't mix replies
 - Terminal setup wizard with QR login, plus Docker Compose
 
-### 🤖 Smart Home Contracts & Quotation AI Engine
+### 🤖 [Smart Home Contracts & Quotation AI Engine](https://github.com/zzzeinhom/smart-home-contracts-api)
 `Java 21` `Spring Boot 3` `Spring AI` `pgvector` `Redis`
 
 - Multi-tenant B2B microservice that turns PDFs, spreadsheets and images into structured records using Vision LLMs
 - Idempotent `BigDecimal` financial guardrails with human-in-the-loop clarification (PostgreSQL JSONB + Flyway)
 - Device normalization and multi-query RAG quotation generation with pgvector HNSW (1024-dim embeddings)
 
-### 🍽️ InDine: Restaurant Reservation & AI Recommendations
+### 🍽️ [InDine: Restaurant Reservation & AI Recommendations](https://github.com/Indine-Team/indine-backend)
 `Java 21` `Spring Boot 3.5` `PostgreSQL` `pgvector` `Redis` `RabbitMQ` `Python` `Paymob` `Cloudinary`
 
 - RabbitMQ pipeline that keeps LLM menu parsing off user-facing HTTP threads
@@ -70,7 +70,7 @@ A local, OpenAI-compatible `/v1/chat/completions` endpoint for the Instinct assi
 - Ingredient extraction and allergen tagging in a separate Python worker
 - Paymob payments: intents, webhooks and signature validation
 
-### 📦 Distributed Order Processing & Inventory
+### 📦 [Distributed Order Processing & Inventory](https://github.com/zzzeinhom/distributed-order-system)
 `Java 21` `Spring Boot 3` `Kafka` `PostgreSQL` `Docker`
 
 - Transactional outbox for at-least-once delivery without dual writes
